@@ -150,6 +150,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
+        android:text="@{movie.name}"
         android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
         app:layout_constraintBottom_toBottomOf="@+id/mask"
         app:layout_constraintStart_toStartOf="parent"

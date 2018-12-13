@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
             .setContentView(this, R.layout.activity_main_expanded)
 
 
-
         setExpanded.clone(root)
         setCollapsed.clone(this, R.layout.activity_main)
 
